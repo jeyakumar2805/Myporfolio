@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Doggle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="button" value="Click Me!!" onClick="myFunction()">
+    <div id="myDiv">
+        This is my Div
+    </div>
+    <script>
+        function myFunction()
+        {
+        var toggleDemo=document.getElementById('myDiv');
+        if(toggleDemo.style.display ==="none")
+        {
+        toggleDemo.style.display="block";
+        }
+        else
+        {
+            toggleDemo.style.display="none";
+
+        }
+    }
+    </script>
+
+</body>
+</html>

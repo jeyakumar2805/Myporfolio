@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: "Poppins", sans-serif;
+}
+input[type="button"]
+{
+    background-color: brown;
+    color:aqua;
+    font-size: 18px;
+    padding: 20px 40px;
+    border:20px insert red;
+}
+div#myDiv
+{
+    width:100%;
+    height:100vh;
+    background-color: rgb(160, 100, 147);
+    margin: auto;
+    border:3px solid green;
+    padding: 10px;
+    display: none;
+}
+:root{
+    --p1:#606eee;
+    --color1:rgb(123,1,78);
+
+}
+div.header 
+{
+    background-color: rgb(140, 87, 184);
+    padding: 15px;
+    text-align: center;
+}
+div.nav-menu
+{
+    background-color: var(--p1);
+    overflow: hidden;
+}
+div.nav-menu  a
+{
+    float:left;
+    display: inline;
+    color:rgb(183, 221, 221);
+    text-decoration: none;
+    padding:0 15px;
+}
+div.nav-menu  a:hover
+{
+    background-color: bisque;
+    color:red;
+    font-weight:700;
+
+}
+.columnA,.columnB
+{
+    float:left;
+    width: 50%;
+    padding: 15px 15px;
+    text-align: justify;
+}
+.columnC,.columnD
+{
+    float:left;
+    width: 50%;
+    padding: 15px 15px;
+    text-align: justify;
+}
+@media screen and (max-width:600px)
+{
+    .columnA,.columnB,.columnC,.columnD
+    {
+        width:50%;
+
+    }
+}
+@media screen and (max-width:400px)
+{
+    .columnA,.columnB,.columnC,.columnD
+    {
+        width:50%;
+        
+    }
+}
